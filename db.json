@@ -39,6 +39,14 @@
       }
     }
   ],
+  "contenido": [
+    {
+      "titulo": "XX",
+      "contenido": {
+        "item": "XXX"
+      }
+    }
+  ],
   "profile": {
     "name": "typicode"
   }

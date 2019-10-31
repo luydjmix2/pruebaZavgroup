@@ -9,6 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SliderComponent } from './slider/slider.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     BrowserModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
+    ButtonsModule.forRoot()
   ],
   providers: [SlidersApiService],
   bootstrap: [AppComponent]

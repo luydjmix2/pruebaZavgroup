@@ -1,10 +1,9 @@
-<p>slider works!</p>
 <carousel>
     <slide *ngFor="let Slider of SliderList">
         <img src="/assets/img/{{Slider.imagen}}" alt="first slide" style="display: block; width: 100%;">
         <div class="carousel-caption d-none d-md-block">
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>{{Slider.titulo}}</h3>
+            <a href="{{Slider.enlace.url}}" class="btn btn-primary">{{Slider.enlace.titulo}}</a>
         </div>
     </slide>
 </carousel>
