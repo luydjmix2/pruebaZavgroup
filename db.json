@@ -13,6 +13,32 @@
       "postId": 1
     }
   ],
+  "sliders": [
+    {
+      "imagen": "imagen01.jpg",
+      "titulo": "XX",
+      "enlace": {
+        "url": "XXX",
+        "titulo": "XXXX"
+      }
+    },
+    {
+      "imagen": "imagen02.jpg",
+      "titulo": "XX",
+      "enlace": {
+        "url": "XXX",
+        "titulo": "XXXX"
+      }
+    },
+    {
+      "imagen": "imagen03.jpg",
+      "titulo": "XX",
+      "enlace": {
+        "url": "XXX",
+        "titulo": "XXXX"
+      }
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
