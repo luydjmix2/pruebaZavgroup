@@ -13,4 +13,9 @@ export class SlidersApiService {
     const url = 'http://localhost:3000/sliders';
     return this.http.get(url);
   }
+
+  getListConten(){
+    const Url_conten = 'http://localhost:3000/contenido';
+    return this.http.get(Url_conten);
+  }
 }
