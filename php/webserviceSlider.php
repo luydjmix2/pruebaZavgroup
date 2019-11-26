@@ -1,4 +1,6 @@
 <?php
+
+if($_GET['user'] == 'valido'){
 $slider =  [
     [
         "imagen" => "imagen01.jpg",
@@ -26,3 +28,4 @@ $slider =  [
 header("Access-Control-Allow-Origin: *");
 header('Content-type: application/json');
 print_r(json_encode($slider));
+}

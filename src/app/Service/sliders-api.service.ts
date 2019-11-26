@@ -10,7 +10,7 @@ export class SlidersApiService {
   constructor(private http: HttpClient) { }
 
   getListSlider(){
-    const url = 'http://prueba01.lesframework.com/php/webserviceSlider.php';
+    const url = 'http://prueba01.lesframework.com/php/webserviceSlider.php?user=valido';
     return this.http.get(url);
   }
 
