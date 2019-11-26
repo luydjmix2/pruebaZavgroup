@@ -28,4 +28,6 @@ $slider =  [
 header("Access-Control-Allow-Origin: *");
 header('Content-type: application/json');
 print_r(json_encode($slider));
+}else{
+    header ("Location: http://www.google.com");
 }
